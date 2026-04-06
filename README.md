@@ -46,6 +46,11 @@ Source: provided as part of a course assignment
 ## Limitations
 Most spending features correlate strongly with `Income`, limiting behavioral segmentation depth. The dataset captures total spending per category, not purchase frequency or individual transaction details. It reveals *how* customers buy (channels, deal-seeking behavior) more clearly than *why* they buy specific products.
 
+## Next Steps
+- Explore K-Prototypes or Gower's Distance for mixed numerical/categorical data
+- Apply PCA as a preprocessing step before K-Means to reduce the dominance of `Income` and potentially reveal non-income-related behavioral patterns
+- Collect transactional-level data (purchase frequency, basket composition) for deeper consumer behavior analysis
+
 ## Libraries
 
 `pandas`, `numpy` – data manipulation
